@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "make publish"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cross-Origin-Embedder-Policy = "require-corp"
+    Cross-Origin-Opener-Policy = "same-origin"
